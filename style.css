@@ -1,0 +1,94 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    padding: 0;
+}
+.navbar-collapse{
+    background-color:#f8f9fa ;
+}
+.fixed-top{
+    height: 55px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-flow: row wrap; 
+    row-gap: 20px; 
+}
+.flex .flex-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.flex-card img{
+    width: 300px;
+}
+.flex-card p{
+    text-align: center;
+}
+.section-4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow : row wrap;
+    row-gap: 20px;
+}
+.section-4 .card-1,.section-4 .card-2,.section-4 .card-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.col img{
+    width: 100%;
+}
+.section-3{
+    max-width: 1130px;
+    margin: 0px auto;
+}
+.gridimg-1{
+    height: 95%;
+}
+.grid-r2-1{
+    height: 100%;
+}
+.section-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button a{
+    text-decoration: none;
+    color : #fff;
+}
+.right a{
+    text-decoration: none;
+    color : black;
+}
+/* ***************HOVER EFFECTS*************** */
+.card-body .card-btn{
+    transition: 1.5s;
+}
+.card-body .card-btn:hover{
+    color : black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.carousel-caption button{
+    transition: 1.5s;
+}
+.carousel-caption button:hover{
+    color : black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.button button{
+    transition: 1.5s;
+}
+.button button:hover{
+    color : black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+footer{
+    background-color: #f8f9fa;
+}
